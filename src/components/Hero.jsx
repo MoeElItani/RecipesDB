@@ -35,18 +35,18 @@ const Hero = () => {
          </div>
          <div className='text-center px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20'>
             <div className='relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center'>
-               <h2 className='mb-6 font-sans text-3xl font-bold tracking-tight text-white drop-shadow-2xl sm:text-4xl sm:leading-none'>
-                  Your Own <br />
-                  Food Recipes <br className='md:hidden' />
+               <h2 className='mb-2 font-sans text-3xl font-bold tracking-tight text-white drop-shadow-2xl sm:text-4xl sm:leading-none'>
+                  Search For Your <br />
+                  Favorite <br className='md:hidden' />
                   <span className='relative inline-block px-2'>
                      <div className='absolute inset-0 transform -skew-x-12 bg-teal-accent-400' />
                      <span className='relative text-teal-900'>
-                        Diary
+                        Recipes
                      </span>
                   </span>
                </h2>
-               <p className='mb-6 text-base text-indigo-100 md:text-lg'>
-                  Your Recipes All In One Place!
+               <p className='mb-4 text-base text-indigo-100 md:text-lg'>
+                  Food Recipes All In One Place!
                </p>
                <form className='flex flex-col items-center w-full mb-4 md:flex-row md:px-16'>
                   <input
@@ -69,9 +69,6 @@ const Hero = () => {
                      🔍
                   </button>
                </form>
-               <p className='max-w-md mb-10 text-xs tracking-wide text-indigo-100 sm:text-sm sm:mx-auto md:mb-16'>
-                  Search For Your Desired Recipe
-               </p>
                <a
                   href='#recipes'
                   aria-label='Scroll down'

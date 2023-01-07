@@ -39,7 +39,7 @@ const Footer = () => {
          </svg>
          <footer className='h-[15vh] bg-[#004D40] flex flex-col justify-center content-center text-center text-white'>
             <p className='font-semibold my-[0.5rem]'>
-               &copy; 2022 Recipes Diary | All Rights
+               &copy; 2022 RecipesDB | All Rights
                Reserved{' '}
             </p>
             <p className='my-[0.25rem]'>
